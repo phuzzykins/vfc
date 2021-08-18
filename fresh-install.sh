@@ -17,6 +17,7 @@ git clone https://github.com/phuzzykins/udev-media-automount.git
 git clone https://github.com/phuzzykins/vfc.git
 
 ln -s vfc/klipper_config klipper_config
+ln -s vfc/KlipperScreen.conf KlipperScreen.conf
 
 cd ~/udev-media-automount
 sudo make
