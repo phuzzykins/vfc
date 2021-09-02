@@ -19,7 +19,6 @@ git clone https://github.com/phuzzykins/udev-media-automount.git
 git clone https://github.com/phuzzykins/vfc.git
 
 ln -s vfc/klipper_config klipper_config
-ln -s vfc/vfc-klipperscreen.conf KlipperScreen.conf
 
 cd ~/vfc
 sudo cp splashscreen.service /etc/systemd/system/splashscreen.service
