@@ -21,6 +21,8 @@ git clone https://github.com/phuzzykins/vfc.git
 ln -s vfc/klipper_config klipper_config
 
 cd ~/vfc
+sudo cp 90-monitor.conf /usr/share/X11/xorg.conf.d/90-monitor.conf
+convert splash.png -rotate 180 splash-localized.png
 sudo cp splashscreen.service /etc/systemd/system/splashscreen.service
 sudo systemctl enable splashscreen
 sudo systemctl disable getty@tty1
