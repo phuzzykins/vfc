@@ -17,6 +17,7 @@ cd ~
 git clone https://github.com/th33xitus/kiauh.git
 git clone https://github.com/phuzzykins/udev-media-automount.git
 git clone https://github.com/phuzzykins/vfc.git
+git clone https://github.com/mainsail-crew/moonraker-timelapse.git
 
 ln -s vfc/klipper_config klipper_config
 
@@ -39,5 +40,8 @@ sudo udevadm control --reload-rules
 
 cd ~/kiauh
 ./kiauh.sh
+
+cd ~/moonraker-timelapse
+make install
 
 sudo raspi-config 
